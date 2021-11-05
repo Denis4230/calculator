@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); //Класс вызываем для ввода символов с консоли
-        System.out.println("Введите пример через пробел, для вывода ответа нажмите Enter. Пример (1 + 1) Enter"); //инструкция
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите пример через пробел, для вывода ответа нажмите Enter. Пример (1 + 1) Enter");
         System.out.println("Переменные не должны быть больше 10!");
         System.out.println("Для выхода из програмы введите q\nВведите пример: ");
 
@@ -29,7 +29,7 @@ public class Main {
             }
 
             System.out.println(calculator.calculate(arrExp));
-            System.out.println("Введите пример через пробел, для вывода ответа нажмите Enter. Пример (1 + 1) Enter"); //инструкция
+            System.out.println("Введите пример через пробел, для вывода ответа нажмите Enter. Пример (1 + 1) Enter");
             System.out.println("Переменные не должны быть больше 10!");
             System.out.println("Для выхода из програмы введите q\nВведите пример: ");
         }
